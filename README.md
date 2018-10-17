@@ -1,1 +1,1 @@
-The R code and dataset for the paper "Spatially Dependent Functional Data: Covariance Estimation, Principal Component Analysis, and Prediction" written by [Haozhe Zhang](haozhestat.github.io) and Prof. Yehua Li.
+The R code and dataset for the paper "Spatially Dependent Functional Data: Covariance Estimation, Principal Component Analysis, and Prediction" written by [Haozhe Zhang](https://haozhestat.github.io) and Prof. [Yehua Li](https://sites.google.com/a/ucr.edu/yehuali).
