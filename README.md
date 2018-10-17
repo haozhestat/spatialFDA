@@ -1,3 +1,1 @@
-# spatialFDA
-
-The R code and dataset for the paper "Spatially dependent functional data: covariance estimation, principal component analysis, and prediction"
+The R code and dataset for the paper "Spatially Dependent Functional Data: Covariance Estimation, Principal Component Analysis, and Prediction" written by [Haozhe Zhang](haozhestat.github.io) and Prof. Yehua Li.
