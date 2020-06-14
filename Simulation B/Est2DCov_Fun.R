@@ -33,23 +33,8 @@ Est2DCov_Fun <- function(Est3DCov_output,
       spcoef2D_mat[index3d_func(i)[2], index3d_func(i)[3]] +
       sbs[index3d_func(i)[1]]*spcoef3D[i]
   }
-  
-  # cov2D <- function(t){
-  #   t1 = t[,1]
-  #   t2 = t[,2]
-  #   t1bs <- bs(x = t1, knots = t_knots, intercept=TRUE, degree = deg_t,
-  #              Boundary.knots = t_limit)
-  #   t2bs <- bs(x = t2, knots = t_knots, intercept=TRUE, degree = deg_t,
-  #              Boundary.knots = t_limit)
-  #   cov2D_value <- NULL
-  #   for(i in 1:nrow(t)){
-  #     cov2D_value[i] <- (t1bs[i,]%*%spcoef2D_mat)%*%t(t2bs)[,i]
-  #   }
-  #   return(cov2D_value)
-  # }
-  
-  return(list(#cov2D = cov2D,
-              spcoef2D_mat =spcoef2D_mat,
+
+  return(list(spcoef2D_mat =spcoef2D_mat,
               spcoef3D = spcoef3D,
               t_limit = t_limit,
               t_knots = t_knots,
